@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8FAEAB1EC1782B0026E3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FAEAA1EC1782B0026E3BE /* AppDelegate.swift */; };
+		6F8FAEAD1EC1782B0026E3BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FAEAC1EC1782B0026E3BE /* ViewController.swift */; };
+		6F8FAEB01EC1782B0026E3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FAEAE1EC1782B0026E3BE /* Main.storyboard */; };
+		6F8FAEB31EC1782B0026E3BE /* ShoeCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FAEB11EC1782B0026E3BE /* ShoeCollector.xcdatamodeld */; };
+		6F8FAEB51EC1782B0026E3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FAEB41EC1782B0026E3BE /* Assets.xcassets */; };
+		6F8FAEB81EC1782B0026E3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FAEB61EC1782B0026E3BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F8FAEA71EC1782B0026E3BE /* ShoeCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8FAEAA1EC1782B0026E3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F8FAEAC1EC1782B0026E3BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F8FAEAF1EC1782B0026E3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F8FAEB21EC1782B0026E3BE /* ShoeCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoeCollector.xcdatamodel; sourceTree = "<group>"; };
+		6F8FAEB41EC1782B0026E3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F8FAEB71EC1782B0026E3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F8FAEB91EC1782B0026E3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F8FAEA41EC1782B0026E3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F8FAE9E1EC1782B0026E3BE = {
+			isa = PBXGroup;
+			children = (
+				6F8FAEA91EC1782B0026E3BE /* ShoeCollector */,
+				6F8FAEA81EC1782B0026E3BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F8FAEA81EC1782B0026E3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FAEA71EC1782B0026E3BE /* ShoeCollector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F8FAEA91EC1782B0026E3BE /* ShoeCollector */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FAEAA1EC1782B0026E3BE /* AppDelegate.swift */,
+				6F8FAEAC1EC1782B0026E3BE /* ViewController.swift */,
+				6F8FAEAE1EC1782B0026E3BE /* Main.storyboard */,
+				6F8FAEB41EC1782B0026E3BE /* Assets.xcassets */,
+				6F8FAEB61EC1782B0026E3BE /* LaunchScreen.storyboard */,
+				6F8FAEB91EC1782B0026E3BE /* Info.plist */,
+				6F8FAEB11EC1782B0026E3BE /* ShoeCollector.xcdatamodeld */,
+			);
+			path = ShoeCollector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F8FAEA61EC1782B0026E3BE /* ShoeCollector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8FAEBC1EC1782B0026E3BE /* Build configuration list for PBXNativeTarget "ShoeCollector" */;
+			buildPhases = (
+				6F8FAEA31EC1782B0026E3BE /* Sources */,
+				6F8FAEA41EC1782B0026E3BE /* Frameworks */,
+				6F8FAEA51EC1782B0026E3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoeCollector;
+			productName = ShoeCollector;
+			productReference = 6F8FAEA71EC1782B0026E3BE /* ShoeCollector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F8FAE9F1EC1782B0026E3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ethan Shea";
+				TargetAttributes = {
+					6F8FAEA61EC1782B0026E3BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 28T7X8C39Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F8FAEA21EC1782B0026E3BE /* Build configuration list for PBXProject "ShoeCollector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F8FAE9E1EC1782B0026E3BE;
+			productRefGroup = 6F8FAEA81EC1782B0026E3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F8FAEA61EC1782B0026E3BE /* ShoeCollector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F8FAEA51EC1782B0026E3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8FAEB81EC1782B0026E3BE /* LaunchScreen.storyboard in Resources */,
+				6F8FAEB51EC1782B0026E3BE /* Assets.xcassets in Resources */,
+				6F8FAEB01EC1782B0026E3BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F8FAEA31EC1782B0026E3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8FAEAD1EC1782B0026E3BE /* ViewController.swift in Sources */,
+				6F8FAEB31EC1782B0026E3BE /* ShoeCollector.xcdatamodeld in Sources */,
+				6F8FAEAB1EC1782B0026E3BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F8FAEAE1EC1782B0026E3BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8FAEAF1EC1782B0026E3BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F8FAEB61EC1782B0026E3BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8FAEB71EC1782B0026E3BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F8FAEBA1EC1782B0026E3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F8FAEBB1EC1782B0026E3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F8FAEBD1EC1782B0026E3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28T7X8C39Y;
+				INFOPLIST_FILE = ShoeCollector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shea.ShoeCollector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F8FAEBE1EC1782B0026E3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28T7X8C39Y;
+				INFOPLIST_FILE = ShoeCollector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shea.ShoeCollector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F8FAEA21EC1782B0026E3BE /* Build configuration list for PBXProject "ShoeCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8FAEBA1EC1782B0026E3BE /* Debug */,
+				6F8FAEBB1EC1782B0026E3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8FAEBC1EC1782B0026E3BE /* Build configuration list for PBXNativeTarget "ShoeCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8FAEBD1EC1782B0026E3BE /* Debug */,
+				6F8FAEBE1EC1782B0026E3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F8FAEB11EC1782B0026E3BE /* ShoeCollector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F8FAEB21EC1782B0026E3BE /* ShoeCollector.xcdatamodel */,
+			);
+			currentVersion = 6F8FAEB21EC1782B0026E3BE /* ShoeCollector.xcdatamodel */;
+			path = ShoeCollector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F8FAE9F1EC1782B0026E3BE /* Project object */;
+}
